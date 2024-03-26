@@ -1,4 +1,4 @@
-const words = "A really pretty spiral animation";
+const words = "Tatiana Limongi /Web Developer/";
 
 const ANIMATION_DURATION = 2000;
 

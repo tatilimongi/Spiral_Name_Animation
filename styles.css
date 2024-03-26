@@ -31,10 +31,46 @@ html {
   }
 }
 
+@keyframes rainbow {
+  0% {
+    color: red;
+  }
+  10% {
+    color: orange;
+  }
+  20% {
+    color: yellow;
+  }
+  30% {
+    color: green;
+  }
+  40% {
+    color: cyan;
+  }
+  50% {
+    color: blue;
+  }
+  60% {
+    color: indigo;
+  }
+  70% {
+    color: violet;
+  }
+  80% {
+    color: magenta;
+  }
+  90% {
+    color: pink;
+  }
+  100% {
+    color: red;
+  }
+}
+
 .character {
   color: white;
   font-size: 4em;
   transform: translateY(calc(sin(var(--angle)) * 100px))
     scale(calc(cos(var(--angle)) * 0.5 + 0.5));
-  animation: spiral 4s linear infinite;
+  animation: spiral 4s linear infinite, rainbow 8s linear infinite;
 }
