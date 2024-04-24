@@ -1,4 +1,4 @@
-const words = "Tatiana Limongi /Web Developer/";
+const words = "ooooooooooooooooooooooooo";
 
 const ANIMATION_DURATION = 2000;
 
